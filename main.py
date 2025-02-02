@@ -13,4 +13,4 @@ inputText = col1.text_area("Tarjima matn kiriting", height=300)
 tarjima = st.button("Tarjima qilish", type='primary')
 if tarjima:
     text = inputText.replace('\n',' ')
-    st.text_area('Result',text)
+    col2.text_area('Result',text)
